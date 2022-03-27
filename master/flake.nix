@@ -11,6 +11,7 @@
   inputs.src-byteutils-master.ref   = "refs/heads/master";
   inputs.src-byteutils-master.owner = "status-im";
   inputs.src-byteutils-master.repo  = "nim-byteutils";
+  inputs.src-byteutils-master.dir   = "";
   inputs.src-byteutils-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
